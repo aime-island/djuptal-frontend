@@ -71,8 +71,8 @@ export default class Item extends React.Component {
                             <button key={0} className="delete-btn" onClick={this.handleRemove}>
                                 Eyða
                             </button>,
-                            <button key={1} className="correct-btn" onClick={this.handleTranscribe}>
-                                Rétt
+                            <button key={1} className="correct-btn" disabled={true} onClick={this.handleTranscribe}>
+                                Þýða
                             </button>
                         ]
                     }
