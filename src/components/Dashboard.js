@@ -67,16 +67,16 @@ export default class Dashboard extends React.Component {
     render() {
         return (
             <div className="dashboard">
-                <div className="main">
+                {/* <div className="main">
                     <ModelSettings />
                     <StreamSettings 
                         submit={(e) => this.submitStreamSettings(e)}
                     />
-                </div>
+                 </div> */}
                 <div className="main">
-                    <Stream 
+                    {/* <Stream 
                         settings={this.state.streamSettings}    
-                    />
+                    /> */}
                     <Upload 
                         add={(e) => this.addRecording(e)}
                     />
